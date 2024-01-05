@@ -7,7 +7,7 @@ export default function Header() {
         <nav className="">
             <div className='flex justify-between '>
                 <Link to={"/"}>
-                <h1 className="text-textlogo mx-3 font-bold text-3xl py-3 font-ubuntu">{"Student Manager".toUpperCase()}</h1>
+                <h1 className="text-textlogo mx-5 font-bold text-3xl py-3 font-ubuntu">{"Student Manager".toUpperCase()}</h1>
                 </Link>
                 <div className="flex justify-around w-1/2">
                 <ul className="mx-3 flex h-full items-center gap-10 text-teritory font-light font-ubuntu text-md" >
