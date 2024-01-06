@@ -3,11 +3,11 @@ import {Link} from "react-router-dom"
 
 export default function Header() {
   return (
-    <div className="shadow-xl bg-blue-900 text-white max-h-16 sticky top-0 ">
+    <div className="shadow-xl bg-blue-900 text-white max-h-16 z-50 top-0 sticky select-none">
         <nav className="">
             <div className='flex justify-between '>
                 <Link to={"/"}>
-                <h1 className="text-textlogo mx-5 font-bold text-3xl py-3 font-ubuntu">{"Student Manager".toUpperCase()}</h1>
+                <h1 className="text-textlogo mx-5 font-bold text-2xl py-3 font-poppins">{"Student Manager".toUpperCase()}</h1>
                 </Link>
                 <div className="flex justify-around w-1/2">
                 <ul className="mx-3 flex h-full items-center gap-10 text-teritory font-light font-ubuntu text-md" >

@@ -9,15 +9,13 @@ import Footer from "./Components/Footer";
 import Contact from "./Pages/Contact";
 import Dashboard from "./Pages/Dashboard";
 import 'overlayscrollbars/overlayscrollbars.css';
-import { OverlayScrollbarsComponent } from "overlayscrollbars-react";
 
 export default function App() {
   let Logedin =false; 
   return (
-    <OverlayScrollbarsComponent>
-    <div className="min-h-screen bg-primary scrollbar scrollbar-primary">
+    <div className="h-full overscroll-auto">
         <BrowserRouter >
-          <Header/>
+        <Header/>
           <Routes >
             <Route path="/" Component={Home} />
             <Route path="/About" Component={About} />
@@ -30,7 +28,5 @@ export default function App() {
           <Footer/>
       </BrowserRouter>
     </div>
-    </OverlayScrollbarsComponent>
-
   )
 }

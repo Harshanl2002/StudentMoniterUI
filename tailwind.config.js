@@ -25,7 +25,8 @@ export default {
     },
     fontFamily:{
       ubuntu:['Ubuntu Mono','monospace'],
-      poppins:['Poppins','sans-serif']
+      poppins:['Poppins','sans-serif'],
+      Alton:["Anton","sans-serif"]
     },
     borderRadius:{
       DEFAULT:"4px",

@@ -6,7 +6,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 library.add(fab,faFacebookF,faTwitter,faGithub);
 export default function footer() {
   return (
-    <div className="bg-blue-900 flex flex-col shadow-xl items-center">
+    <div className="bg-blue-900 flex flex-col shadow-xl items-center select-none">
         <p className="text-2xl font-poppins font-bold text-white mt-10 mb-5">{"Student Manager"}</p>
         <ul className="my-5 flex h-full items-center gap-20 text-teritory font-light font-ubuntu text-md text-white" >
                     <li className='hover:text-texthover hover:transition-all'><Link to={"/home"}>Home</Link></li>
